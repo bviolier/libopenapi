@@ -19,8 +19,8 @@ func TestFileRef(t *testing.T) {
             properties:
                 name:
                     type: string
-                    minLength: 2
-                    maxLength: 2
+                    minLength: 1
+                    maxLength: 1
         two:
             type: object
             title: Two
@@ -37,8 +37,8 @@ func TestFileRef(t *testing.T) {
             properties:
                 name:
                     type: string
-                    minLength: 2
-                    maxLength: 2`
+                    minLength: 3
+                    maxLength: 3`
 
 	file, _ := os.ReadFile("test_specs/file-ref/index.yaml")
 
