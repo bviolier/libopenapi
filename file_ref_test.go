@@ -38,7 +38,8 @@ func TestFileRef(t *testing.T) {
                 name:
                     type: string
                     minLength: 3
-                    maxLength: 3`
+                    maxLength: 3
+`
 
 	file, _ := os.ReadFile("test_specs/file-ref/index.yaml")
 
